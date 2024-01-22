@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Optima;
-  background-color: #FCF7FF;
+  background-color: #fcf7ff;
 }
 
 .center {
@@ -15,8 +15,6 @@ body {
   padding-right: 20px;
 }
 
-
-
 header {
   position: fixed;
   top: 0;
@@ -26,12 +24,29 @@ header {
   background: #655560;
   padding: 2%;
   text-align: center;
+}
 
+.cool-container {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.cool-container img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cool-description {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #333;
 }
 
 .panel {
   background-color: #655560;
-  color: #FCF7FF;
+  color: #fcf7ff;
 
   width: 100%;
   height: 30vh;
@@ -40,7 +55,6 @@ header {
   margin-right: 10%;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .flex-container {
@@ -59,8 +73,6 @@ footer {
   width: 100%;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .leftFooter {
@@ -76,7 +88,6 @@ footer {
   color: #655560;
   font-size: 120%;
   color: white;
-
 }
 
 a:link {
@@ -103,8 +114,6 @@ a:active {
   color: white;
 }
 
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -128,7 +137,6 @@ h1 {
 
   margin-left: 10%;
   margin-right: 2%;
-
 }
 
 section {
@@ -139,19 +147,14 @@ section {
 section:nth-child(1) {
   color: #e0ffff;
   background-color: #e0ffff;
-
 }
 
 section:nth-child(2) {
-
-  background-color: #FCF7FF;
-
-
+  background-color: #fcf7ff;
 }
 
 section:nth-child(3) {
-
-  background: #C4CAD0
+  background: #c4cad0;
 }
 
 h2 {
@@ -188,7 +191,7 @@ h3 {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #878C8F;
+  background-color: #878c8f;
   color: white;
 }
 
@@ -213,7 +216,6 @@ h3 {
   display: flex;
   justify-content: space-between;
   background-color: #655560;
-
 }
 
 .container {
@@ -231,7 +233,6 @@ h3 {
   width: 100%;
 
   margin-top: 10vh;
-
 }
 
 .reveal {
